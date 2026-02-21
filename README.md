@@ -59,7 +59,7 @@ php artisan serve
 Verificar archivo config/cors.php
 
 Su contenido debe ser:
-
+### codigo php
 <?php
 
 return [
@@ -76,7 +76,7 @@ return [
 ];
 
 ------------------------
-
+## cache
 Luego limpiar caché:
 
 php artisan config:clear
