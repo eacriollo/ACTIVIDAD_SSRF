@@ -58,8 +58,9 @@ php artisan serve
 
 Verificar archivo config/cors.php
 
-Su contenido debe ser:
+Su contenido debe ser
 ### codigo php
+
 <?php
 
 return [
@@ -75,9 +76,10 @@ return [
     'supports_credentials' => false,
 ];
 
-------------------------
+
 ## cache
-Luego limpiar caché:
+
+Luego limpiar caché
 
 php artisan config:clear
 php artisan cache:clear
