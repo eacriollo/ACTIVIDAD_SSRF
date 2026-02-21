@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SSRF Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>SSRF Demo</h1>
+
+<input id="endpoint" placeholder="url">
+<button class="vulnerable" onclick="send('/check-service')">Vulnerable</button>
+<button class="seguro" onclick="send('/check-service-safe')">Seguro</button>
+
+<pre id="result"></pre>
+
+<script src="app.js"></script>
+</body>
+</html>

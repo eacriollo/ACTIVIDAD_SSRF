@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+
+.vulnerable{
+    background-color: red;
+}
+
+.seguro{
+    background-color: green;
+}
+
+#endpoint {
+    background-color: rgb(206, 202, 202);
+}
